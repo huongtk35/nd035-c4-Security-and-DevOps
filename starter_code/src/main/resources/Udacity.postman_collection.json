@@ -1,0 +1,496 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+			"uid": "0-ff904e44-f470-4ed9-9229-21a4fdcf5528",
+			"name": "eCommerce App",
+			"description": null,
+			"auth": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "12b0e127-2b7b-4ffa-8e94-c0c78373e672",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "59c8d8c4-3a91-44a1-9822-861147ade9db",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"variables": [],
+			"order": [],
+			"folders_order": [
+				"15521407-2209-4852-b355-4c97343bae01",
+				"412b1f8c-4370-4d14-af61-bcb738703dd1",
+				"58d5ae19-6ce4-4e4a-ad7d-2eb1998d88c4",
+				"947d39ea-2ba3-4545-9490-acd1ae618f30"
+			],
+			"protocolProfileBehavior": {},
+			"createdAt": "2022-11-14T06:15:12.324Z",
+			"folders": [
+				{
+					"id": "412b1f8c-4370-4d14-af61-bcb738703dd1",
+					"uid": "0-412b1f8c-4370-4d14-af61-bcb738703dd1",
+					"name": "Cart",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folder": null,
+					"order": [
+						"fe1b6457-df5a-4fde-ad27-ecfdbbc84ca3",
+						"6d864bb8-4f34-43bd-b1fc-a27bb80c613c"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2022-11-14T06:20:17.547Z",
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folderId": "412b1f8c-4370-4d14-af61-bcb738703dd1"
+				},
+				{
+					"id": "947d39ea-2ba3-4545-9490-acd1ae618f30",
+					"uid": "0-947d39ea-2ba3-4545-9490-acd1ae618f30",
+					"name": "Item",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folder": null,
+					"order": [
+						"1b798e92-ae4e-471a-a152-3a46fc068d50",
+						"b27a529a-05ec-42b1-b4e8-aa6080f51c1b",
+						"d6462034-d35a-4e30-820b-6c3dac067722"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2022-11-14T06:22:43.002Z",
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folderId": "947d39ea-2ba3-4545-9490-acd1ae618f30"
+				},
+				{
+					"id": "58d5ae19-6ce4-4e4a-ad7d-2eb1998d88c4",
+					"uid": "0-58d5ae19-6ce4-4e4a-ad7d-2eb1998d88c4",
+					"name": "Order",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folder": null,
+					"order": [
+						"0327fb55-2625-4c8b-9fb8-85cac4cfa795",
+						"f99b30c9-4463-4165-b280-2fc61e118c1d"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2022-11-14T06:21:34.234Z",
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folderId": "58d5ae19-6ce4-4e4a-ad7d-2eb1998d88c4"
+				},
+				{
+					"id": "15521407-2209-4852-b355-4c97343bae01",
+					"uid": "0-15521407-2209-4852-b355-4c97343bae01",
+					"name": "User",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folder": null,
+					"order": [
+						"74ef6c3a-d6ea-4a12-8028-c1f3ac68f2ec",
+						"271d9a00-9e45-4307-b7d9-4ef17423e1ce",
+						"deee3fb5-f4d6-46db-8127-9f7e4f44e49a",
+						"a75e9344-3f71-4987-bb8e-cc96be86509b"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2022-11-14T06:19:30.606Z",
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"folderId": "15521407-2209-4852-b355-4c97343bae01"
+				}
+			],
+			"requests": [
+				{
+					"id": "0327fb55-2625-4c8b-9fb8-85cac4cfa795",
+					"uid": "0-0327fb55-2625-4c8b-9fb8-85cac4cfa795",
+					"name": "Submit Order",
+					"url": "{{baseUrl}}/api/order/submit/user1",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"type": "text"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "58d5ae19-6ce4-4e4a-ad7d-2eb1998d88c4",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"rawModeData": "",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "1b798e92-ae4e-471a-a152-3a46fc068d50",
+					"uid": "0-1b798e92-ae4e-471a-a152-3a46fc068d50",
+					"name": "get All Item",
+					"url": "{{baseUrl}}/api/item",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"type": "text"
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "947d39ea-2ba3-4545-9490-acd1ae618f30",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "271d9a00-9e45-4307-b7d9-4ef17423e1ce",
+					"uid": "0-271d9a00-9e45-4307-b7d9-4ef17423e1ce",
+					"name": "Login",
+					"url": "{{baseUrl}}/login",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "15521407-2209-4852-b355-4c97343bae01",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"rawModeData": "{\r\n    \"username\": \"user1\",\r\n    \"password\":\"testtest\"\r\n}",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "6d864bb8-4f34-43bd-b1fc-a27bb80c613c",
+					"uid": "0-6d864bb8-4f34-43bd-b1fc-a27bb80c613c",
+					"name": "Remove From Cart",
+					"url": "{{baseUrl}}/api/cart/removeFromcart",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"type": "text"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "412b1f8c-4370-4d14-af61-bcb738703dd1",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"rawModeData": "{\r\n    \"username\" : \"user1\",\r\n    \"itemId\" : 2,\r\n    \"quantity\" : 3\r\n}",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "74ef6c3a-d6ea-4a12-8028-c1f3ac68f2ec",
+					"uid": "0-74ef6c3a-d6ea-4a12-8028-c1f3ac68f2ec",
+					"name": "Create User",
+					"url": "{{baseUrl}}/api/user/create",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "15521407-2209-4852-b355-4c97343bae01",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"rawModeData": "{\r\n    \"username\":\"user1\",\r\n    \"password\":\"testtest\",\r\n    \"confirmPassword\":\"testtest\"\r\n}",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "a75e9344-3f71-4987-bb8e-cc96be86509b",
+					"uid": "0-a75e9344-3f71-4987-bb8e-cc96be86509b",
+					"name": "Get User By Name",
+					"url": "{{baseUrl}}/api/user/user1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"description": "",
+							"type": "default",
+							"enabled": true
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "15521407-2209-4852-b355-4c97343bae01",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "b27a529a-05ec-42b1-b4e8-aa6080f51c1b",
+					"uid": "0-b27a529a-05ec-42b1-b4e8-aa6080f51c1b",
+					"name": "Get Item By ID",
+					"url": "{{baseUrl}}/api/item/1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"description": "",
+							"type": "default",
+							"enabled": true
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "947d39ea-2ba3-4545-9490-acd1ae618f30",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "d6462034-d35a-4e30-820b-6c3dac067722",
+					"uid": "0-d6462034-d35a-4e30-820b-6c3dac067722",
+					"name": "Get Items By Name",
+					"url": "{{baseUrl}}/api/item/name/Square Widget",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"description": "",
+							"type": "default",
+							"enabled": true
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "947d39ea-2ba3-4545-9490-acd1ae618f30",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "deee3fb5-f4d6-46db-8127-9f7e4f44e49a",
+					"uid": "0-deee3fb5-f4d6-46db-8127-9f7e4f44e49a",
+					"name": "Get User By ID",
+					"url": "{{baseUrl}}/api/user/id/1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"type": "text"
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "15521407-2209-4852-b355-4c97343bae01",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "f99b30c9-4463-4165-b280-2fc61e118c1d",
+					"uid": "0-f99b30c9-4463-4165-b280-2fc61e118c1d",
+					"name": "Get User Order History",
+					"url": "{{baseUrl}}/api/order/history/user1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"type": "text"
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "58d5ae19-6ce4-4e4a-ad7d-2eb1998d88c4",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "fe1b6457-df5a-4fde-ad27-ecfdbbc84ca3",
+					"uid": "0-fe1b6457-df5a-4fde-ad27-ecfdbbc84ca3",
+					"name": "Add To Cart",
+					"url": "{{baseUrl}}/api/cart/addToCart",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer {{jwtToken}}",
+							"type": "text"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "412b1f8c-4370-4d14-af61-bcb738703dd1",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "ff904e44-f470-4ed9-9229-21a4fdcf5528",
+					"rawModeData": "{\r\n    \"username\" : \"user1\",\r\n    \"itemId\" : 2,\r\n    \"quantity\" : 3\r\n}",
+					"headers": "Authorization: Bearer {{jwtToken}}\n",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "80627ac1-6bf4-4c36-a27d-2b1eefa1ab9b",
+			"name": "Ecommerce Auth",
+			"values": [
+				{
+					"key": "jwtToken",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImV4cCI6MTY2OTI3MDcwM30.vFJu9m_qaASuzjpfIpeYJrK0j6F1SfvrnD0GWqF3dFJTOIbbfXyTCUN5rE4zmAGMJxZrGMXyKZBTC-90OTo0aA",
+					"type": "default",
+					"enabled": true
+				},
+				{
+					"key": "baseUrl",
+					"value": "http://localhost:8080",
+					"type": "default",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "9ef43c0a-06a4-4b63-b268-92c5a756a007",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}

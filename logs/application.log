@@ -1,0 +1,35 @@
+2022-11-15T21:10:33.596+0700 INFO Starting SareetaApplication on NguyenTan-MacBook-Pro.local with PID 54271 (/Volumes/Data/Javawebdeveloper/project4/Source/starter_code/target/classes started by huongtk35 in /Volumes/Data/Javawebdeveloper/project4/Source)
+2022-11-15T21:10:33.599+0700 INFO No active profile set, falling back to default profiles: default
+2022-11-15T21:10:35.450+0700 INFO Started SareetaApplication in 1.99 seconds (JVM running for 2.463)
+2022-11-15T21:10:47.443+0700 INFO [UserController] [createUser] start
+2022-11-15T21:10:47.600+0700 INFO [UserController] [createUser] api call end
+2022-11-15T21:10:48.354+0700 INFO [UserController] [createUser] start
+2022-11-15T21:10:48.379+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
+2022-11-15T21:10:49.051+0700 INFO [UserController] [createUser] start
+2022-11-15T21:10:49.056+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
+2022-11-15T21:11:01.197+0700 ERROR [UserController] [findById] api request
+2022-11-15T21:11:04.021+0700 ERROR [UserController] [findById] api request
+2022-11-15T21:11:08.367+0700 ERROR [UserController] [findByUserName] api call start
+2022-11-15T21:11:08.374+0700 ERROR [UserController] [findByUserName] api call end
+2022-11-15T21:11:09.633+0700 ERROR [UserController] [findByUserName] api call start
+2022-11-15T21:11:09.635+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
+2022-11-15T21:11:12.092+0700 INFO [CartController] [addTocart]: api call start
+2022-11-15T21:11:12.112+0700 INFO [CartController] [addTocart] end
+2022-11-15T21:11:21.602+0700 INFO [CartController] [addTocart]: api call start
+2022-11-15T21:11:21.604+0700 ERROR [CartController] [addTocart] [Fail] for user : user122, REASON : User not found
+2022-11-15T21:11:27.020+0700 INFO [CartController] [addTocart]: api call start
+2022-11-15T21:11:27.024+0700 ERROR [CartController] [addTocart] [Fail] for item : 5, REASON : Item not found
+2022-11-15T21:11:38.735+0700 INFO [OrderController] [submit]: api call start
+2022-11-15T21:11:38.754+0700 INFO [OrderController] [submit]: api call end
+2022-11-15T21:11:41.937+0700 INFO [OrderController] [getOrdersForUser]: api call start
+2022-11-15T21:11:41.940+0700 INFO [OrderController] [getOrdersForUser]: api call start
+2022-11-15T21:11:43.818+0700 INFO [ItemController] [getItems]: api request
+2022-11-15T21:11:45.801+0700 INFO [ItemController] [getItemById]: api request
+2022-11-15T21:13:34.375+0700 INFO [ItemController] [getItemById]: api request
+2022-11-15T21:13:36.250+0700 INFO [OrderController] [submit]: api call start
+2022-11-15T21:13:36.264+0700 INFO [OrderController] [submit]: api call end
+2022-11-15T21:13:39.456+0700 INFO [UserController] [createUser] start
+2022-11-15T21:13:39.458+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
+2022-11-15T21:13:41.181+0700 ERROR [UserController] [findById] api request
+2022-11-15T21:13:44.027+0700 ERROR [UserController] [findByUserName] api call start
+2022-11-15T21:13:44.030+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
