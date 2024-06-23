@@ -1,3 +1,10 @@
+/**
+ * @author RoseDao
+ * @email [huongtk35@gmail.com]
+ * @create date 2024-06-23 20:56:37
+ * @modify date 2024-06-23 20:56:37
+ * @desc [description]
+ */
 package com.example.demo.security;
 
 public class SecurityConstants {

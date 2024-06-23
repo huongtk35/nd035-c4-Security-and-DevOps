@@ -1,23 +1,11 @@
+/**
+ * @author RoseDao
+ * @email [huongtk35@gmail.com]
+ * @create date 2024-06-23 20:57:09
+ * @modify date 2024-06-23 20:57:09
+ * @desc [description]
+ */
 package com.example.demo.controller;
-
-import com.example.demo.TestUtils;
-import com.example.demo.controllers.CartController;
-import com.example.demo.controllers.UserController;
-import com.example.demo.model.persistence.Cart;
-import com.example.demo.model.persistence.Item;
-import com.example.demo.model.persistence.User;
-import com.example.demo.model.persistence.repositories.CartRepository;
-import com.example.demo.model.persistence.repositories.ItemRepository;
-import com.example.demo.model.persistence.repositories.UserRepository;
-import com.example.demo.model.requests.ModifyCartRequest;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -26,9 +14,23 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import org.junit.Before;
+import org.junit.Test;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.example.demo.TestUtils;
+import com.example.demo.controllers.CartController;
+import com.example.demo.model.persistence.Cart;
+import com.example.demo.model.persistence.Item;
+import com.example.demo.model.persistence.User;
+import com.example.demo.model.persistence.repositories.CartRepository;
+import com.example.demo.model.persistence.repositories.ItemRepository;
+import com.example.demo.model.persistence.repositories.UserRepository;
+import com.example.demo.model.requests.ModifyCartRequest;
 
 
 public class CartControllerTest {

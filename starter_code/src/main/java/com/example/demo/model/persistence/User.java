@@ -1,3 +1,10 @@
+/**
+ * @author RoseDao
+ * @email [huongtk35@gmail.com]
+ * @create date 2024-06-23 20:56:17
+ * @modify date 2024-06-23 20:56:17
+ * @desc [description]
+ */
 package com.example.demo.model.persistence;
 
 import javax.persistence.CascadeType;

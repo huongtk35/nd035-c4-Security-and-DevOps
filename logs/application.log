@@ -1,4 +1,4 @@
-2022-11-15T21:10:33.596+0700 INFO Starting SareetaApplication on NguyenTan-MacBook-Pro.local with PID 54271 (/Volumes/Data/Javawebdeveloper/project4/Source/starter_code/target/classes started by huongtk35 in /Volumes/Data/Javawebdeveloper/project4/Source)
+2022-11-15T21:10:33.596+0700 INFO Starting SareetaApplication on huongtk35.local with PID 54271 (/Volumes/Data/Javawebdeveloper/project4/Source/starter_code/target/classes started by huongtk35 in /Volumes/Data/Javawebdeveloper/project4/Source)
 2022-11-15T21:10:33.599+0700 INFO No active profile set, falling back to default profiles: default
 2022-11-15T21:10:35.450+0700 INFO Started SareetaApplication in 1.99 seconds (JVM running for 2.463)
 2022-11-15T21:10:47.443+0700 INFO [UserController] [createUser] start
@@ -33,3 +33,9 @@
 2022-11-15T21:13:41.181+0700 ERROR [UserController] [findById] api request
 2022-11-15T21:13:44.027+0700 ERROR [UserController] [findByUserName] api call start
 2022-11-15T21:13:44.030+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
+2024-06-23T21:50:31.130+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 9396 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-06-23T21:50:31.147+0700 INFO No active profile set, falling back to default profiles: default
+2024-06-23T21:50:48.978+0700 INFO Started SareetaApplication in 18.571 seconds (JVM running for 20.758)
+2024-06-23T22:05:44.120+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 12672 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-06-23T22:05:44.131+0700 INFO No active profile set, falling back to default profiles: default
+2024-06-23T22:05:55.674+0700 INFO Started SareetaApplication in 12.175 seconds (JVM running for 14.158)

@@ -1,7 +1,14 @@
+/**
+ * @author RoseDao
+ * @email [huongtk35@gmail.com]
+ * @create date 2024-06-23 20:56:39
+ * @modify date 2024-06-23 20:56:39
+ * @desc [description]
+ */
 package com.example.demo.security;
 
-import com.example.demo.model.persistence.User;
-import com.example.demo.model.persistence.repositories.UserRepository;
+import java.util.Collections;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +17,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
+import com.example.demo.model.persistence.User;
+import com.example.demo.model.persistence.repositories.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

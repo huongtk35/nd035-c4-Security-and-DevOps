@@ -1,5 +1,16 @@
+/**
+ * @author RoseDao
+ * @email [huongtk35@gmail.com]
+ * @create date 2024-06-23 20:56:30
+ * @modify date 2024-06-23 20:56:30
+ * @desc [description]
+ */
 package com.example.demo.security;
 
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
@@ -13,15 +24,11 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+
 import com.auth0.jwt.JWT;
+import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 import com.example.demo.model.persistence.User;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-
-import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 
 public class JWTAuthenticationFilter  extends UsernamePasswordAuthenticationFilter {
     private static final Logger log = LoggerFactory.getLogger(JWTAuthenticationFilter.class);
