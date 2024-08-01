@@ -1,41 +1,70 @@
-2022-11-15T21:10:33.596+0700 INFO Starting SareetaApplication on huongtk35.local with PID 54271 (/Volumes/Data/Javawebdeveloper/project4/Source/starter_code/target/classes started by huongtk35 in /Volumes/Data/Javawebdeveloper/project4/Source)
-2022-11-15T21:10:33.599+0700 INFO No active profile set, falling back to default profiles: default
-2022-11-15T21:10:35.450+0700 INFO Started SareetaApplication in 1.99 seconds (JVM running for 2.463)
-2022-11-15T21:10:47.443+0700 INFO [UserController] [createUser] start
-2022-11-15T21:10:47.600+0700 INFO [UserController] [createUser] api call end
-2022-11-15T21:10:48.354+0700 INFO [UserController] [createUser] start
-2022-11-15T21:10:48.379+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
-2022-11-15T21:10:49.051+0700 INFO [UserController] [createUser] start
-2022-11-15T21:10:49.056+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
-2022-11-15T21:11:01.197+0700 ERROR [UserController] [findById] api request
-2022-11-15T21:11:04.021+0700 ERROR [UserController] [findById] api request
-2022-11-15T21:11:08.367+0700 ERROR [UserController] [findByUserName] api call start
-2022-11-15T21:11:08.374+0700 ERROR [UserController] [findByUserName] api call end
-2022-11-15T21:11:09.633+0700 ERROR [UserController] [findByUserName] api call start
-2022-11-15T21:11:09.635+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
-2022-11-15T21:11:12.092+0700 INFO [CartController] [addTocart]: api call start
-2022-11-15T21:11:12.112+0700 INFO [CartController] [addTocart] end
-2022-11-15T21:11:21.602+0700 INFO [CartController] [addTocart]: api call start
-2022-11-15T21:11:21.604+0700 ERROR [CartController] [addTocart] [Fail] for user : user122, REASON : User not found
-2022-11-15T21:11:27.020+0700 INFO [CartController] [addTocart]: api call start
-2022-11-15T21:11:27.024+0700 ERROR [CartController] [addTocart] [Fail] for item : 5, REASON : Item not found
-2022-11-15T21:11:38.735+0700 INFO [OrderController] [submit]: api call start
-2022-11-15T21:11:38.754+0700 INFO [OrderController] [submit]: api call end
-2022-11-15T21:11:41.937+0700 INFO [OrderController] [getOrdersForUser]: api call start
-2022-11-15T21:11:41.940+0700 INFO [OrderController] [getOrdersForUser]: api call start
-2022-11-15T21:11:43.818+0700 INFO [ItemController] [getItems]: api request
-2022-11-15T21:11:45.801+0700 INFO [ItemController] [getItemById]: api request
-2022-11-15T21:13:34.375+0700 INFO [ItemController] [getItemById]: api request
-2022-11-15T21:13:36.250+0700 INFO [OrderController] [submit]: api call start
-2022-11-15T21:13:36.264+0700 INFO [OrderController] [submit]: api call end
-2022-11-15T21:13:39.456+0700 INFO [UserController] [createUser] start
-2022-11-15T21:13:39.458+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
-2022-11-15T21:13:41.181+0700 ERROR [UserController] [findById] api request
-2022-11-15T21:13:44.027+0700 ERROR [UserController] [findByUserName] api call start
-2022-11-15T21:13:44.030+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
+2024-06-23T21:10:33.596+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 54271 (/Volumes/Data/Javawebdeveloper/project4/Source/starter_code/target/classes started by huongtk35 in /Volumes/Data/Javawebdeveloper/project4/Source)
+2024-06-23T21:10:33.599+0700 INFO No active profile set, falling back to default profiles: default
+2024-06-23T21:10:35.450+0700 INFO Started SareetaApplication in 1.99 seconds (JVM running for 2.463)
+2024-06-23T21:10:47.443+0700 INFO [UserController] [createUser] start
+2024-06-23T21:10:47.600+0700 INFO [UserController] [createUser] api call end
+2024-06-23T21:10:48.354+0700 INFO [UserController] [createUser] start
+2024-06-23T21:10:48.379+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
+2024-06-23T21:10:49.051+0700 INFO [UserController] [createUser] start
+2024-06-23T21:10:49.056+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
+2024-06-23T21:11:01.197+0700 ERROR [UserController] [findById] api request
+2024-06-23T21:11:04.021+0700 ERROR [UserController] [findById] api request
+2024-06-23T21:11:08.367+0700 ERROR [UserController] [findByUserName] api call start
+2024-06-23T21:11:08.374+0700 ERROR [UserController] [findByUserName] api call end
+2024-06-23T21:11:09.633+0700 ERROR [UserController] [findByUserName] api call start
+2024-06-23T21:11:09.635+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
+2024-06-23T21:11:12.092+0700 INFO [CartController] [addTocart]: api call start
+2024-06-23T21:11:12.112+0700 INFO [CartController] [addTocart] end
+2024-06-23T21:11:21.602+0700 INFO [CartController] [addTocart]: api call start
+2024-06-23T21:11:21.604+0700 ERROR [CartController] [addTocart] [Fail] for user : user122, REASON : User not found
+2024-06-23T21:11:27.020+0700 INFO [CartController] [addTocart]: api call start
+2024-06-23T21:11:27.024+0700 ERROR [CartController] [addTocart] [Fail] for item : 5, REASON : Item not found
+2024-06-23T21:11:38.735+0700 INFO [OrderController] [submit]: api call start
+2024-06-23T21:11:38.754+0700 INFO [OrderController] [submit]: api call end
+2024-06-23T21:11:41.937+0700 INFO [OrderController] [getOrdersForUser]: api call start
+2024-06-23T21:11:41.940+0700 INFO [OrderController] [getOrdersForUser]: api call start
+2024-06-23T21:11:43.818+0700 INFO [ItemController] [getItems]: api request
+2024-06-23T21:11:45.801+0700 INFO [ItemController] [getItemById]: api request
+2024-06-23T21:13:34.375+0700 INFO [ItemController] [getItemById]: api request
+2024-06-23T21:13:36.250+0700 INFO [OrderController] [submit]: api call start
+2024-06-23T21:13:36.264+0700 INFO [OrderController] [submit]: api call end
+2024-06-23T21:13:39.456+0700 INFO [UserController] [createUser] start
+2024-06-23T21:13:39.458+0700 INFO [UserController] [createUser] [Fail] for user: user1, REASON: user exists
+2024-06-23T21:13:41.181+0700 ERROR [UserController] [findById] api request
+2024-06-23T21:13:44.027+0700 ERROR [UserController] [findByUserName] api call start
+2024-06-23T21:13:44.030+0700 ERROR [UserController] [findByUserName] [Fail] for user : user4, REASON : User not found
 2024-06-23T21:50:31.130+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 9396 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
 2024-06-23T21:50:31.147+0700 INFO No active profile set, falling back to default profiles: default
 2024-06-23T21:50:48.978+0700 INFO Started SareetaApplication in 18.571 seconds (JVM running for 20.758)
 2024-06-23T22:05:44.120+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 12672 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
 2024-06-23T22:05:44.131+0700 INFO No active profile set, falling back to default profiles: default
 2024-06-23T22:05:55.674+0700 INFO Started SareetaApplication in 12.175 seconds (JVM running for 14.158)
+2024-06-23T22:11:40.976+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 12800 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-06-23T22:11:40.984+0700 INFO No active profile set, falling back to default profiles: default
+2024-06-23T22:11:50.724+0700 INFO Started SareetaApplication in 10.247 seconds (JVM running for 11.453)
+2024-06-23T22:21:36.547+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 8860 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-06-23T22:21:36.564+0700 INFO No active profile set, falling back to default profiles: default
+2024-06-23T22:21:47.432+0700 INFO Started SareetaApplication in 11.418 seconds (JVM running for 12.611)
+2024-07-31T23:09:38.460+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 25768 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-07-31T23:09:38.826+0700 INFO No active profile set, falling back to default profiles: default
+2024-07-31T23:13:12.846+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 31128 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-07-31T23:13:12.867+0700 INFO No active profile set, falling back to default profiles: default
+2024-07-31T23:14:25.753+0700 INFO Started SareetaApplication in 79.198 seconds (JVM running for 87.56)
+2024-07-31T23:18:12.872+0700 INFO [UserController] [createUser] start
+2024-07-31T23:18:17.827+0700 INFO [UserController] [createUser] [Fail] for user: admin, REASON: password is not valid
+2024-07-31T23:19:51.693+0700 INFO [UserController] [createUser] start
+2024-07-31T23:19:51.700+0700 INFO [UserController] [createUser] [Fail] for user: administrator, REASON: password is not valid
+2024-07-31T23:21:22.069+0700 INFO [UserController] [createUser] start
+2024-07-31T23:21:22.633+0700 INFO [UserController] [createUser] api call end
+2024-08-01T20:17:02.071+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 1940 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-08-01T20:17:02.339+0700 INFO No active profile set, falling back to default profiles: default
+2024-08-01T20:18:14.001+0700 INFO Started SareetaApplication in 75.79 seconds (JVM running for 86.311)
+2024-08-01T20:18:50.879+0700 INFO [UserController] [createUser] start
+2024-08-01T20:18:51.594+0700 INFO [UserController] [createUser] api call end
+2024-08-01T20:35:44.635+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 5424 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-08-01T20:35:44.871+0700 INFO No active profile set, falling back to default profiles: default
+2024-08-01T20:36:45.125+0700 INFO Started SareetaApplication in 69.063 seconds (JVM running for 76.695)
+2024-08-01T20:41:50.885+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 17432 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-08-01T20:41:51.060+0700 INFO No active profile set, falling back to default profiles: default
+2024-08-01T20:45:57.301+0700 INFO Starting SareetaApplication on WINDOWS-PC with PID 18464 (D:\udacity\nd035-c4-Security-and-DevOps\starter_code\target\classes started by WINDOWS in D:\udacity\nd035-c4-Security-and-DevOps)
+2024-08-01T20:45:57.380+0700 INFO No active profile set, falling back to default profiles: default
