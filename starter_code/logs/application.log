@@ -1,0 +1,80 @@
+2026-04-01T03:41:21.886+0000 INFO Starting SareetaApplicationTests on runnervmrg6be with PID 4054 (started by runner in /home/runner/work/nd035-c4-Security-and-DevOps/nd035-c4-Security-and-DevOps/starter_code)
+2026-04-01T03:41:21.887+0000 INFO No active profile set, falling back to default profiles: default
+2026-04-01T03:41:24.999+0000 INFO Started SareetaApplicationTests in 3.285 seconds (JVM running for 4.834)
+2026-04-01T03:41:25.213+0000 ERROR [UserController] [findById] api request
+2026-04-01T03:41:25.218+0000 ERROR [UserController] [findByUserName] api call start
+2026-04-01T03:41:25.218+0000 ERROR [UserController] [findByUserName] [Fail] for user : test, REASON : User not found
+2026-04-01T03:41:25.220+0000 INFO [UserController] [createUser] start
+2026-04-01T03:41:25.220+0000 INFO [UserController] [createUser] [Fail] for user: userTest, REASON: user exists
+2026-04-01T03:41:25.221+0000 INFO [UserController] [createUser] start
+2026-04-01T03:41:25.221+0000 INFO [UserController] [createUser] api call end
+2026-04-01T03:41:25.222+0000 INFO [UserController] [createUser] start
+2026-04-01T03:41:25.222+0000 INFO [UserController] [createUser] [Fail] for user: userTest, REASON: password is not valid
+2026-04-01T03:41:25.222+0000 ERROR [UserController] [findByUserName] api call start
+2026-04-01T03:41:25.223+0000 ERROR [UserController] [findByUserName] api call end
+2026-04-01T03:41:25.223+0000 ERROR [UserController] [findById] api request
+2026-04-01T03:41:25.246+0000 INFO [CartController] [removeFromcart]: api call start
+2026-04-01T03:41:25.247+0000 ERROR [CartController] [removeFromcart] [Fail] for item : 1, REASON : Item not found
+2026-04-01T03:41:25.247+0000 INFO [CartController] [addTocart]: api call start
+2026-04-01T03:41:25.248+0000 ERROR [CartController] [addTocart] [Fail] for user : huongtk35, REASON : User not found
+2026-04-01T03:41:25.249+0000 INFO [CartController] [removeFromcart]: api call start
+2026-04-01T03:41:25.250+0000 INFO [CartController] [removeFromcart]: api call end
+2026-04-01T03:41:25.251+0000 INFO [CartController] [addTocart]: api call start
+2026-04-01T03:41:25.251+0000 ERROR [CartController] [addTocart] [Fail] for item : 1, REASON : Item not found
+2026-04-01T03:41:25.252+0000 INFO [CartController] [removeFromcart]: api call start
+2026-04-01T03:41:25.252+0000 ERROR [CartController] [removeFromcart] [Fail] for user : huongtk35, REASON : User not found
+2026-04-01T03:41:25.253+0000 INFO [CartController] [addTocart]: api call start
+2026-04-01T03:41:25.253+0000 INFO [CartController] [addTocart] end
+2026-04-01T03:41:25.255+0000 INFO [ItemController] [getItemById]: api request
+2026-04-01T03:41:25.255+0000 INFO [ItemController] [getItemsByName]: api request
+2026-04-01T03:41:25.256+0000 INFO [ItemController] [getItemsByName]: api request
+2026-04-01T03:41:25.256+0000 ERROR [ItemController] [getItemsByName] [Fail] for item : test, REASON : Item not found
+2026-04-01T03:41:25.256+0000 INFO [ItemController] [getItems]: api request
+2026-04-01T03:41:25.279+0000 INFO [OrderController] [submit]: api call start
+2026-04-01T03:41:25.280+0000 INFO [OrderController] [submit]: api call end
+2026-04-01T03:41:25.283+0000 INFO [OrderController] [getOrdersForUser]: api call start
+2026-04-01T03:41:25.284+0000 INFO [OrderController] [getOrdersForUser]: api call start
+2026-04-01T03:41:25.284+0000 INFO [OrderController] [submit]: api call start
+2026-04-01T03:41:25.284+0000 ERROR [OrderController] [submit] [Fail] for user : test, REASON : User not found
+2026-04-01T03:41:25.285+0000 INFO [OrderController] [getOrdersForUser]: api call start
+2026-04-01T03:41:25.285+0000 ERROR [OrderController] [getOrdersForUser] [Fail] for user : test, REASON : User not found
+2026-04-01T03:42:41.853+0000 INFO Starting SareetaApplicationTests on runnervmrg6be with PID 4235 (started by runner in /home/runner/work/nd035-c4-Security-and-DevOps/nd035-c4-Security-and-DevOps/starter_code)
+2026-04-01T03:42:41.855+0000 INFO No active profile set, falling back to default profiles: default
+2026-04-01T03:42:45.457+0000 INFO Started SareetaApplicationTests in 3.79 seconds (JVM running for 4.691)
+2026-04-01T03:42:45.683+0000 ERROR [UserController] [findById] api request
+2026-04-01T03:42:45.688+0000 ERROR [UserController] [findByUserName] api call start
+2026-04-01T03:42:45.689+0000 ERROR [UserController] [findByUserName] [Fail] for user : test, REASON : User not found
+2026-04-01T03:42:45.690+0000 INFO [UserController] [createUser] start
+2026-04-01T03:42:45.691+0000 INFO [UserController] [createUser] [Fail] for user: userTest, REASON: user exists
+2026-04-01T03:42:45.691+0000 INFO [UserController] [createUser] start
+2026-04-01T03:42:45.692+0000 INFO [UserController] [createUser] api call end
+2026-04-01T03:42:45.693+0000 INFO [UserController] [createUser] start
+2026-04-01T03:42:45.693+0000 INFO [UserController] [createUser] [Fail] for user: userTest, REASON: password is not valid
+2026-04-01T03:42:45.693+0000 ERROR [UserController] [findByUserName] api call start
+2026-04-01T03:42:45.694+0000 ERROR [UserController] [findByUserName] api call end
+2026-04-01T03:42:45.694+0000 ERROR [UserController] [findById] api request
+2026-04-01T03:42:45.721+0000 INFO [CartController] [removeFromcart]: api call start
+2026-04-01T03:42:45.722+0000 ERROR [CartController] [removeFromcart] [Fail] for item : 1, REASON : Item not found
+2026-04-01T03:42:45.723+0000 INFO [CartController] [addTocart]: api call start
+2026-04-01T03:42:45.723+0000 ERROR [CartController] [addTocart] [Fail] for user : huongtk35, REASON : User not found
+2026-04-01T03:42:45.725+0000 INFO [CartController] [removeFromcart]: api call start
+2026-04-01T03:42:45.726+0000 INFO [CartController] [removeFromcart]: api call end
+2026-04-01T03:42:45.727+0000 INFO [CartController] [addTocart]: api call start
+2026-04-01T03:42:45.727+0000 ERROR [CartController] [addTocart] [Fail] for item : 1, REASON : Item not found
+2026-04-01T03:42:45.728+0000 INFO [CartController] [removeFromcart]: api call start
+2026-04-01T03:42:45.728+0000 ERROR [CartController] [removeFromcart] [Fail] for user : huongtk35, REASON : User not found
+2026-04-01T03:42:45.729+0000 INFO [CartController] [addTocart]: api call start
+2026-04-01T03:42:45.730+0000 INFO [CartController] [addTocart] end
+2026-04-01T03:42:45.731+0000 INFO [ItemController] [getItemById]: api request
+2026-04-01T03:42:45.732+0000 INFO [ItemController] [getItemsByName]: api request
+2026-04-01T03:42:45.733+0000 INFO [ItemController] [getItemsByName]: api request
+2026-04-01T03:42:45.733+0000 ERROR [ItemController] [getItemsByName] [Fail] for item : test, REASON : Item not found
+2026-04-01T03:42:45.733+0000 INFO [ItemController] [getItems]: api request
+2026-04-01T03:42:45.763+0000 INFO [OrderController] [submit]: api call start
+2026-04-01T03:42:45.763+0000 INFO [OrderController] [submit]: api call end
+2026-04-01T03:42:45.769+0000 INFO [OrderController] [getOrdersForUser]: api call start
+2026-04-01T03:42:45.769+0000 INFO [OrderController] [getOrdersForUser]: api call start
+2026-04-01T03:42:45.770+0000 INFO [OrderController] [submit]: api call start
+2026-04-01T03:42:45.770+0000 ERROR [OrderController] [submit] [Fail] for user : test, REASON : User not found
+2026-04-01T03:42:45.771+0000 INFO [OrderController] [getOrdersForUser]: api call start
+2026-04-01T03:42:45.771+0000 ERROR [OrderController] [getOrdersForUser] [Fail] for user : test, REASON : User not found
