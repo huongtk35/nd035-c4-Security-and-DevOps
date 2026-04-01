@@ -42,19 +42,19 @@ public class UserController {
 
     @GetMapping("/id/{id}")
     public ResponseEntity<User> findById(@PathVariable Long id) {
-        log.error("[UserController] [findById] api request" );
+        log.info("[UserController] [findById] api request" );
         return ResponseEntity.of(userRepository.findById(id));
     }
 
     @GetMapping("/{username}")
     public ResponseEntity<User> findByUserName(@PathVariable String username) {
-        log.error("[UserController] [findByUserName] api call start" );
+        log.info("[UserController] [findByUserName] api call start" );
         User user = userRepository.findByUsername(username);
         if(user == null) {
             log.error("[UserController] [findByUserName] [Fail] for user : " + username +", REASON : User not found" );
             return ResponseEntity.notFound().build();
         }
-        log.error("[UserController] [findByUserName] api call end" );
+        log.info("[UserController] [findByUserName] api call end" );
         return ResponseEntity.ok(user);
     }
 
